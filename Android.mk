@@ -25,8 +25,8 @@ LOCAL_JAVA_LIBRARIES := javax.obex telephony-common libprotobuf-java-micro
 LOCAL_STATIC_JAVA_LIBRARIES := com.android.vcard  bluetooth.mapsapi sap-api-java-static android-support-v4
 LOCAL_STATIC_JAVA_LIBRARIES += com.android.emailcommon org.cyanogenmod.platform.internal
 #External Gps And FM Libs
-LOCAL_STATIC_JAVA_LIBRARIES += com.asus.fm.jar
-LOCAL_STATIC_JAVA_LIBRARIES += com.broadcom.bt.jar
+LOCAL_STATIC_JAVA_LIBRARIES += com.asus.fm
+LOCAL_STATIC_JAVA_LIBRARIES += com.broadcom.bt
 
 LOCAL_REQUIRED_MODULES := bluetooth.default
 LOCAL_MULTILIB := 32
